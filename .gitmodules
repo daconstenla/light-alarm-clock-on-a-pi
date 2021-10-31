@@ -1,4 +1,4 @@
-[submodule "rpi_ws281x"]
-	path = rpi_ws281x
-	url = git@github.com:jgarff/rpi_ws281x.git
+[submodule "rpi-ws281x-python"]
+	path = rpi-ws281x-python
+	url = git@github.com:rpi-ws281x/rpi-ws281x-python.git
 	branch = master

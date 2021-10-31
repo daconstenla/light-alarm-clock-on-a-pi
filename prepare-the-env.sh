@@ -36,14 +36,14 @@ function verify_dependencies {
 }
 
 function ws2812_build_c {
-    pushd $DIR/rpi_ws281x > /dev/null
+    pushd $DIR/rpi-ws281x-python/library/lib > /dev/null
     echo -e '\nBuild C library\n'
     scons
     popd > /dev/null
 }
 
 function ws2812_build_python {
-    pushd $DIR/rpi_ws281x/python > /dev/null
+    pushd $DIR/rpi-ws281x-python/library > /dev/null
     echo -e '\nBuild Python library\n'
     virtualenv examples/
     . examples/bin/activate
@@ -62,5 +62,5 @@ function ws2812_open_samples {
         verify_dependencies
         ws2812_build_and_install_package
     fi
-    cd $DIR/rpi_ws281x/python/examples
+    cd $DIR/rpi-ws281x-python/examples
 }

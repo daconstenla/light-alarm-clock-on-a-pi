@@ -1,6 +1,6 @@
 # my personal led matrix project
 
-Source code of the python library is [jgarff/rpi_ws281x](https://github.com/jgarff/rpi_ws281x) and source code of the C library of adafruit neopixel [adafruit/Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel).
+Source code of the python library is [rpi-ws281x/rpi-ws281x-python](https://github.com/rpi-ws281x/rpi-ws281x-python) and source code of the C library of adafruit neopixel [adafruit/Adafruit_NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel).
 
 ## get it running
 
